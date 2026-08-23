@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+  <h2>Create Form In HTML</h2>
+  <h3>Student Registration Form</h3>
+  <form>
+    <label>Full Name</label><br>
+    <input type="text" name="name" placeholder="full name" required maxlength="50"><br>
+    <label>Email</label><br>
+    <input type="email" name="email" placeholder="your email" required maxlength="50"><br>
+    <label>Password</label><br>
+    <input type="password" name="password" placeholder="your password"><br>
+    <label>Date Of Birth</label><br>
+    <input type="date" name="date" required><br>
+    <label>Class</label><br>
+    <select>
+        <option>X-1</option>
+        <option>X-2</option>
+        <option>X-3</option>
+        <option>X-4</option>
+        <option>X-5</option>
+        <option>X-6</option>
+        <option>X-7</option>
+        <option>X-8</option>
+        <option>X-9</option>
+    </select><br>
+    <label>Gender</label><br>
+    <input type="radio" name="Gender">Male
+    <input type="radio" name="Gender" >Female<br>
+    <label>Skills</label><br>
+    <input type="checkbox" name="Skills" required>HTML
+    <input type="checkbox" name="Skills" required>CSS
+    <input type="checkbox" name="Skills" required>JavaScript<br>
+    <label>Abaut Yourself</label><br>
+    <textarea rows="5" cols="40" placeholder="Describe Abaut Yourself here...." required></textarea><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button><br>
+  </form>
+</body>
+</html>

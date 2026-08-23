@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information and Communication Technology Class Program</title>
+</head>
+<body>
+    <h1>Information and Communication Technology Class program</h1>
+    <hr>
+    <p>The ICT Program is designed to help students understend the
+         basic concepts of information and communication technology. Through this program, 
+         students will learn how technology is used in daily life, education, and the workplace.
+    </p>
+    <p>Students will also develop skills in website development and database menegement.
+         This program prepares students to think creatively, solve problems, and build simple digital projectc.
+    </p>  
+<h2>Learning Topics</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+</ul>
+<h2>Learning Roadmap</h2>
+<ol>
+    <li>Learn HTML</li>
+    <li>Learn CSS</li>
+    <li>Learn JavaScript</li>
+    <li>Learn PHP</li>
+    <li>Learn MySQL</li>
+</ol>
+<h2>Technology Definitions</h2>
+<dl>
+    <dt>HTML</dt>
+        <dd>HTML is used to create the structure and content of a webpage</dd>
+    <dt>CSS</dt>
+        <dd>CSS is used to style and design the appearance of a webpage</dd>
+    <dt>JavaScript</dt>
+        <dd>JavaScript is used to make a webpage interactive and dynamic</dd>
+</dl>
+<h2>Important Announcement</h2>
+<p>
+    <strong>Important:</strong>
+    Students must complate the ICT project before the
+    <mark>final presentation day.</mark>
+</p>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
